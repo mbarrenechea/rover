@@ -5,8 +5,8 @@ import classnames from 'classnames';
 import Rover from './Rover';
 
 const GRID = {
-  rows: [...Array(16).keys()],
-  columns: [...Array(16).keys()]
+  rows: [...Array(10).keys()],
+  columns: [...Array(10).keys()]
 };
 
 const OBSTACLES = [
