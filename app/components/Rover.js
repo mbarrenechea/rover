@@ -126,8 +126,8 @@ export default class Rover extends Component {
         style={{
           width,
           height,
-          top: `${position[1] * grid.rows.length}%`,
-          left: `${position[0] * grid.columns.length}%`,
+          top: `${position[1] * 100/grid.rows.length}%`,
+          left: `${position[0] * 100/grid.columns.length}%`,
           transform: `rotate(${degrees}deg)`
         }}
       >
