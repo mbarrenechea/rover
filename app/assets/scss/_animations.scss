@@ -1,0 +1,36 @@
+// HEADER
+@-webkit-keyframes header {
+  from { transform: translate(-50%, -50%) rotate(-15deg);}
+  to { transform: translate(-50%, -50%) rotate(15deg);}
+}
+@-moz-keyframes header {
+  from { transform: translate(-50%, -50%) rotate(-15deg);}
+  to { transform: translate(-50%, -50%) rotate(15deg);}
+}
+@-ms-keyframes header {
+  from { transform: translate(-50%, -50%) rotate(-15deg);}
+  to { transform: translate(-50%, -50%) rotate(15deg);}
+}
+@keyframes header {
+  from { transform: translate(-50%, -50%) rotate(-15deg);}
+  to { transform: translate(-50%, -50%) rotate(15deg);}
+}
+
+
+// TAIL
+@-webkit-keyframes tail {
+  from { transform: translate(-50%, 50%) rotate(-15deg);}
+  to { transform: translate(-50%, 50%) rotate(15deg);}
+}
+@-moz-keyframes tail {
+  from { transform: translate(-50%, 50%) rotate(-15deg);}
+  to { transform: translate(-50%, 50%) rotate(15deg);}
+}
+@-ms-keyframes tail {
+  from { transform: translate(-50%, 50%) rotate(-15deg);}
+  to { transform: translate(-50%, 50%) rotate(15deg);}
+}
+@keyframes tail {
+  from { transform: translate(-50%, 50%) rotate(-15deg);}
+  to { transform: translate(-50%, 50%) rotate(15deg);}
+}

@@ -1,5 +1,7 @@
-$color: #262828;
+@import 'settings';
+@import 'reset';
+@import 'animations';
 
-body {
-  color: $color;
-}
+// Components
+@import 'grid';
+@import 'rover';

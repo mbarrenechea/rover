@@ -12,6 +12,8 @@
   },
   "extends": "airbnb",
   "rules": {
+    "comma-dangle": 0,
+    "forbid-prop-types": 0,
     "space-before-function-paren": 0,
     "react/prefer-stateless-function": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],

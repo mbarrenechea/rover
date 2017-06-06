@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import Grid from './Grid';
 
 export default class App extends Component {
   render() {
     return (
-      <h2 id="heading">Hello ReactJS</h2>
+      <Grid />
     );
   }
 }
-

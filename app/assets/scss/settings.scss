@@ -1,0 +1,97 @@
+/**
+ * COLORS
+ * - App
+ * - Common
+ * - States
+ * - Text
+ * - Borders
+*/
+// App
+$color-primary: #005b23;
+$color-secondary: #e98300;
+$color-tertiary: #f7f6ed;
+$color-gray-1: #333333;
+$color-gray-2: #EDECE3;
+
+// Common
+$color-white: white;
+$color-black: black;
+
+// States
+$color-success: #1c801c;
+$color-error: #de2239;
+
+// Text
+$color-text-1: #333333;
+$color-text-2: #f7f6ed;
+
+// Borders
+$border-color-1: #D8D8D8;
+$border-color-2: #aaa;
+$border-color-3: #333;
+
+// Zindex
+$z-index-1: 0;
+$z-index-2: 999;
+$z-index-3: 1000;
+
+/**
+ * FONTS
+ * - Families
+ * - Sizes
+ * - Weights
+*/
+// Families
+$font-family-proximanova: 'Proxima Nova';
+$font-family-georgia: Georgia, Arial, sans-serif;
+
+// Sizes
+$font-size-extrasmall:  10px;
+$font-size-small:       13px;
+$font-size-default:     16px;
+$font-size-big:         20px;
+$font-size-bigger:      24px;
+$font-size-extrabig:    26px;
+$font-size-huge:        48px;
+$font-size-extrahuge:   72px;
+
+// Weights
+$font-weight-light:   300;
+$font-weight-default: 400;
+$font-weight-bold:    700;
+
+/**
+ * LAYOUT
+*/
+// Max widths
+$layout-max-width: 1060px;
+
+// Responsive breakpoints
+$br-mobile: 640px;
+$br-tablet: 1024px;
+$br-desktop: 1200px;
+
+/**
+ * SPACES && SIZES
+*/
+$space-1: 8px;
+
+/**
+ * ANIMATIONS
+ * - Times
+ * - Eases
+*/
+// Times
+$animation-time: .16s;
+$animation-time-2: .24s;
+$animation-time-3: .5s;
+$animation-time-4: .75s;
+
+// Eases
+$ease-in-cubic: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+$ease-out-cubic: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+
+$ease-in-sine: cubic-bezier(0.470, 0.000, 0.745, 0.715);
+$ease-out-sine: cubic-bezier(0.390, 0.575, 0.565, 1.000);
+$ease-in-out-sine: cubic-bezier(0.445, 0.050, 0.550, 0.950);

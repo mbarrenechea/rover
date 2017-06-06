@@ -16,6 +16,7 @@
   "author": "Kliment Petrov <kleopetroff@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "classnames": "^2.2.5",
     "cross-env": "5.0.0",
     "react": "15.5.4",
     "react-dom": "15.5.4",

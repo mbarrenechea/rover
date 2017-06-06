@@ -1,0 +1,42 @@
+.c-grid {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // List
+  .grid-list {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid $border-color-1;
+  }
+
+  // List item
+  .grid-item {
+    &.-colored { background: $color-gray-2; }
+
+    &.-obstacle { background: $color-gray-1; }
+  }
+
+  // List item cell
+  .grid-cell {
+    position: relative;
+    padding-bottom: 100%;
+    font-size: $font-size-extrasmall;
+  }
+
+  // List item cell number
+  .grid-cell-number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+  }
+}

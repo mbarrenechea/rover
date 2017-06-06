@@ -1,0 +1,43 @@
+.c-rover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all $animation-time-2 $ease-in-out-cubic;
+
+  .rover-body {
+    position: relative;
+    width: 60%;
+    height: 60%;
+    background: $color-gray-1;
+    border-radius: 50%;
+
+    header {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: $color-primary;
+      transform: translate(-50%, -50%);
+      transform-origin: 50% 100%;
+      animation: header $animation-time-3 $ease-in-out-sine both 0s infinite alternate-reverse;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      height: 14px;
+      border-radius: 50%;
+      background: $color-gray-1;
+      transform: translate(-50%, 50%);
+      animation: tail $animation-time $ease-in-out-sine 0s infinite;
+    }
+  }
+}
