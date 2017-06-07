@@ -112,6 +112,9 @@ export default class Rover extends Component {
 
     if (!this.checkObstacle(newPosition)) {
       this.setState({ position: newPosition });
+    } else {
+      // If there is an obstacle try to turn
+      this.turn('l');
     }
   }
 
