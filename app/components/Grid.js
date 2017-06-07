@@ -34,7 +34,7 @@ export default class Grid extends Component {
             height={height}
             grid={GRID}
             obstacles={OBSTACLES}
-            command="frffffflfffflfffffrfffffrfffflfffffffrfffffrfffffrfffflffflffrffrffffffflffll"
+            // command="frffffflfffflfffffrfffffrfffflfffffffrfffffrfffffrfffflffflffrffrffffffflffll"
           />
 
           {GRID.rows.map((row, i) =>

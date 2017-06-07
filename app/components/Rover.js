@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Constants
 const DIRECTIONS = ['N', 'E', 'S', 'W'];
+const MOVEMENTS = ['f', 'f', 'f', 'f', 'f', 'f', 'f', 'b', 'l', 'r', 'l', 'r'];
 const TIME = 250;
 export default class Rover extends Component {
 
@@ -19,6 +20,8 @@ export default class Rover extends Component {
     const { command } = this.props;
     if (command) {
       this.executeComand(command);
+    } else {
+      this.autoMove();
     }
   }
 
@@ -42,6 +45,28 @@ export default class Rover extends Component {
         })(index, letter);
       }
     });
+  }
+
+  autoMove() {
+    const letter = MOVEMENTS[Math.floor(Math.random() * MOVEMENTS.length)];
+
+    if (letter === 'f' || letter === 'b') {
+      ((l) => {
+        setTimeout(() => {
+          this.move(l);
+          this.autoMove();
+        }, TIME);
+      })(letter);
+    }
+
+    if (letter === 'r' || letter === 'l') {
+      ((l) => {
+        setTimeout(() => {
+          this.turn(l);
+          this.autoMove();
+        }, TIME);
+      })(letter);
+    }
   }
 
   checkObstacle(position) {
